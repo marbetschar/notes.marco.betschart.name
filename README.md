@@ -11,9 +11,16 @@ pip install -r requirements.txt
 # pip freeze > requirements.txt
 ```
 
-## Local Preview
+## Preview
 
 ```
 source .venv/bin/activate
 myst start
+```
+
+## Development
+
+```
+source .venv/bin/activate
+jupyter lab
 ```
