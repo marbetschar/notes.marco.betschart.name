@@ -8,6 +8,11 @@ project:
   # authors: []
   # github:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+  - file: index.md
+  - title: Bayesian Machine Learning
+    children:
+      - file: bayesian-machine-learning/index.md
 site:
   robots: disallow
   template: book-theme
