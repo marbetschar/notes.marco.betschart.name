@@ -24,6 +24,14 @@ project:
           - file: bayesian-machine-learning/linear-regression/polynomial-regression-overfitting-regularisation.ipynb
           - file: bayesian-machine-learning/linear-regression/exercises.ipynb
           - file: bayesian-machine-learning/linear-regression/solutions.ipynb
+  - title: Predictive Modeling
+    children:
+      - title: Linear Regression
+        children:
+          - file: predictive-modeling/simple-linear-regression/SLR_Example_2_4.ipynb
+          - file: predictive-modeling/simple-linear-regression/SLR_Example_3_1.ipynb
+          - file: predictive-modeling/simple-linear-regression/SLR_Example_3_3_to_3_5.ipynb
+          - file: predictive-modeling/simple-linear-regression/SLR_Example_4_2.ipynb
 site:
   robots: disallow
   template: book-theme
