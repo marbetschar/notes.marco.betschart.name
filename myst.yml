@@ -17,6 +17,8 @@ project:
           - file: bayesian-machine-learning/linear-regression/simple-linear-regression.ipynb
           - file: bayesian-machine-learning/linear-regression/multiple-linear-regression.ipynb
           - file: bayesian-machine-learning/linear-regression/polynomial-regression-overfitting-regularisation.ipynb
+          - file: bayesian-machine-learning/linear-regression/exercises.ipynb
+          - file: bayesian-machine-learning/linear-regression/solutions.ipynb
 site:
   robots: disallow
   template: book-theme
