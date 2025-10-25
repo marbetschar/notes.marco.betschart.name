@@ -1,6 +1,6 @@
 # Notes
 
-## Setup
+## Installation
 
 ```
 python3 -venv .venv
@@ -9,4 +9,11 @@ pip install -r requirements.txt
 
 # To update the requirements file:
 # pip freeze > requirements.txt
+```
+
+## Local Preview
+
+```
+source .venv/bin/activate
+myst start
 ```
