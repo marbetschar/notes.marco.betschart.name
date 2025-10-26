@@ -38,6 +38,7 @@ project:
             - file: advanced_deep_learning/rnns_sequence_processing/Exercises.ipynb
     - title: Bayesian Machine Learning
       children:
+        - file: bayesian_machine_learning/introduction/Introduction.ipynb
         - title: Continous Problems
           children:
             - file: bayesian_machine_learning/continous_problems/Exercises.ipynb
@@ -84,12 +85,6 @@ project:
                 bayesian_machine_learning/model_checks_model_selection_multivariate_distributions/Posterior-Predictive-Check.ipynb
             - file: >-
                 bayesian_machine_learning/model_checks_model_selection_multivariate_distributions/Solutions.ipynb
-        - title: Probability And Bayes Theorem
-          children:
-            - file: >-
-                bayesian_machine_learning/probability_and_bayes_theorem/Exercises.ipynb
-            - file: >-
-                bayesian_machine_learning/probability_and_bayes_theorem/Solutions.ipynb
     - title: Predictive Modeling
       children:
         - title: Decision   Trees
