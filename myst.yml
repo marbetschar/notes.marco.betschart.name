@@ -53,43 +53,16 @@ project:
         - title: Linear Model Selection
           children:
             - file: predictive_modeling/linear_model_selection/Examples.ipynb
-        - title: Linear Regression
-          children:
-            - file: predictive_modeling/linear_regression/Examples.ipynb
-            - file: predictive_modeling/linear_regression/Exercises.ipynb
         - title: Logistic Regression
           children:
             - file: predictive_modeling/logistic_regression/Examples.ipynb
+            - file: predictive_modeling/logistic_regression/Exercises.ipynb
             - file: >-
                 predictive_modeling/logistic_regression/Intro-Classification-Problems.ipynb
-        - title: Multiple   Linear   Regression
+        - title: Multiple Linear Regression
           children:
-            - file: predictive_modeling/Multiple Linear Regression/MLR_Example_1_3.ipynb
-            - file: predictive_modeling/Multiple Linear Regression/MLR_Example_2_1.ipynb
-            - file: predictive_modeling/Multiple Linear Regression/MLR_Example_3_1.ipynb
-            - file: predictive_modeling/Multiple Linear Regression/MLR_Example_3_5.ipynb
-            - file: >-
-                predictive_modeling/Multiple Linear
-                Regression/MLR_Example_4_01_03.ipynb
-            - file: >-
-                predictive_modeling/Multiple Linear
-                Regression/MLR_Example_4_04.ipynb
-            - file: >-
-                predictive_modeling/Multiple Linear
-                Regression/MLR_Example_4_05_to_08.ipynb
-            - file: >-
-                predictive_modeling/Multiple Linear
-                Regression/MLR_Example_4_11.ipynb
-            - file: >-
-                predictive_modeling/Multiple Linear
-                Regression/MLR_Example_4_13.ipynb
-            - file: >-
-                predictive_modeling/Multiple Linear
-                Regression/MLR_Example_4_14.ipynb
-            - file: >-
-                predictive_modeling/Multiple Linear
-                Regression/MLR_Example_4_17_to_19.ipynb
-            - file: predictive_modeling/Multiple Linear Regression/MLR_Example_5_1.ipynb
+            - file: predictive_modeling/multiple_linear_regression/Examples.ipynb
+            - file: predictive_modeling/multiple_linear_regression/Exercises.ipynb
         - title: Probability   Models  For  Measurement   Data
           children:
             - file: >-
@@ -115,6 +88,10 @@ project:
           children:
             - file: predictive_modeling/regularization_techniques/Examples.ipynb
             - file: predictive_modeling/regularization_techniques/Exercises.ipynb
+        - title: Simple Linear Regression
+          children:
+            - file: predictive_modeling/simple_linear_regression/Examples.ipynb
+            - file: predictive_modeling/simple_linear_regression/Exercises.ipynb
         - title: Statistics  For  Measurement   Data
           children:
             - file: >-
@@ -145,6 +122,7 @@ project:
         - title: Testing Model Assumptions
           children:
             - file: predictive_modeling/testing_model_assumptions/Examples.ipynb
+            - file: predictive_modeling/testing_model_assumptions/Exercises.ipynb
         - title: Time   Series  ARIMA  Models
           children:
             - file: predictive_modeling/Time Series ARIMA Models/TSA_Example_1_1.ipynb
