@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import statsmodels.api as sm
 
-
 def fit_linear_reg(x, y):
     '''Fit Linear model with predictors x on y 
     return AIC, BIC, R2 and R2 adjusted '''
