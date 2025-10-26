@@ -54,6 +54,9 @@ project:
         - title: Linear Model Selection
           children:
             - file: predictive-modeling/linear-model-selection/Examples.ipynb
+        - title: Linear Regression
+          children:
+            - file: predictive-modeling/linear-regression/Examples.ipynb
         - title: Logistic Regression
           children:
             - file: predictive-modeling/logistic-regression/Examples.ipynb
@@ -111,13 +114,7 @@ project:
         - title: Regularization Techniques
           children:
             - file: predictive-modeling/regularization-techniques/Examples.ipynb
-        - title: Simple Linear Regression
-          children:
-            - file: predictive-modeling/simple-linear-regression/SLR_Example_2_4.ipynb
-            - file: predictive-modeling/simple-linear-regression/SLR_Example_3_1.ipynb
-            - file: >-
-                predictive-modeling/simple-linear-regression/SLR_Example_3_3_to_3_5.ipynb
-            - file: predictive-modeling/simple-linear-regression/SLR_Example_4_2.ipynb
+            - file: predictive-modeling/regularization-techniques/Exercises.ipynb
         - title: Statistics  For  Measurement   Data
           children:
             - file: >-
