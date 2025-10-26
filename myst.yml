@@ -112,9 +112,8 @@ project:
             - file: predictive_modeling/Joint Distributions/JDB_Example_5_1.ipynb
             - file: predictive_modeling/Joint Distributions/JDB_Example_5_2.ipynb
             - file: predictive_modeling/Joint Distributions/JDB_Exercise_USArrests.ipynb
-        - title: Linear Model Selection
-          children:
-            - file: predictive_modeling/linear_model_selection/Examples.ipynb
+        - file: >-
+            predictive_modeling/linear_model_selection/Linear-Model-Selection.ipynb
         - title: Logistic Regression
           children:
             - file: predictive_modeling/logistic_regression/Examples.ipynb

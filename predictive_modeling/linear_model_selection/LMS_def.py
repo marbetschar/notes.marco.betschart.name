@@ -74,4 +74,3 @@ def drop_one(x, y, scoreby='RSS'):
         worst = x_labels[results[scoreby].argmax()]
     
     return results, worst 
-
