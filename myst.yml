@@ -20,14 +20,14 @@ project:
       children:
         - title: Linear Regression
           children:
-            - file: bayesian-machine-learning/linear_regression/exercises.ipynb
+            - file: bayesian-machine-learning/linear-regression/exercises.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/multiple-linear-regression.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/polynomial-regression-overfitting-regularisation.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/simple-linear-regression.ipynb
-            - file: bayesian-machine-learning/linear_regression/solutions.ipynb
+            - file: bayesian-machine-learning/linear-regression/solutions.ipynb
     - title: Predictive Modeling
       children:
         - title: Decision   Trees
@@ -42,7 +42,7 @@ project:
         - title: Introduction  To  Regression   Analysis
           children:
             - file: >-
-                predictive-modeling/Introduction to Regression
+                predictive_modeling/Introduction to Regression
                 Analysis/IRA_Example_1_1.ipynb
         - title: Joint   Distributions
           children:
@@ -56,11 +56,12 @@ project:
         - title: Linear Regression
           children:
             - file: predictive_modeling/linear_regression/Examples.ipynb
+            - file: predictive_modeling/linear_regression/Exercises.ipynb
         - title: Logistic Regression
           children:
             - file: predictive_modeling/logistic_regression/Examples.ipynb
             - file: >-
-                predictive-modeling/logistic-regression/Intro-Classification-Problems.ipynb
+                predictive_modeling/logistic_regression/Intro-Classification-Problems.ipynb
         - title: Multiple   Linear   Regression
           children:
             - file: predictive_modeling/Multiple Linear Regression/MLR_Example_1_3.ipynb
@@ -68,40 +69,40 @@ project:
             - file: predictive_modeling/Multiple Linear Regression/MLR_Example_3_1.ipynb
             - file: predictive_modeling/Multiple Linear Regression/MLR_Example_3_5.ipynb
             - file: >-
-                predictive-modeling/Multiple Linear
+                predictive_modeling/Multiple Linear
                 Regression/MLR_Example_4_01_03.ipynb
             - file: >-
-                predictive-modeling/Multiple Linear
+                predictive_modeling/Multiple Linear
                 Regression/MLR_Example_4_04.ipynb
             - file: >-
-                predictive-modeling/Multiple Linear
+                predictive_modeling/Multiple Linear
                 Regression/MLR_Example_4_05_to_08.ipynb
             - file: >-
-                predictive-modeling/Multiple Linear
+                predictive_modeling/Multiple Linear
                 Regression/MLR_Example_4_11.ipynb
             - file: >-
-                predictive-modeling/Multiple Linear
+                predictive_modeling/Multiple Linear
                 Regression/MLR_Example_4_13.ipynb
             - file: >-
-                predictive-modeling/Multiple Linear
+                predictive_modeling/Multiple Linear
                 Regression/MLR_Example_4_14.ipynb
             - file: >-
-                predictive-modeling/Multiple Linear
+                predictive_modeling/Multiple Linear
                 Regression/MLR_Example_4_17_to_19.ipynb
             - file: predictive_modeling/Multiple Linear Regression/MLR_Example_5_1.ipynb
         - title: Probability   Models  For  Measurement   Data
           children:
             - file: >-
-                predictive-modeling/Probability Models for Measurement
+                predictive_modeling/Probability Models for Measurement
                 Data/PMforMD_Examples_2_1.ipynb
             - file: >-
-                predictive-modeling/Probability Models for Measurement
+                predictive_modeling/Probability Models for Measurement
                 Data/PMforMD_Examples_2_5.ipynb
             - file: >-
-                predictive-modeling/Probability Models for Measurement
+                predictive_modeling/Probability Models for Measurement
                 Data/PMforMD_Examples_2_7.ipynb
             - file: >-
-                predictive-modeling/Probability Models for Measurement
+                predictive_modeling/Probability Models for Measurement
                 Data/PMforMD_Examples_4_4.ipynb
         - title: Random   Forests
           children:
@@ -117,19 +118,19 @@ project:
         - title: Statistics  For  Measurement   Data
           children:
             - file: >-
-                predictive-modeling/Statistics for Measurement
+                predictive_modeling/Statistics for Measurement
                 Data/SforMD_Example_1_1.ipynb
             - file: >-
-                predictive-modeling/Statistics for Measurement
+                predictive_modeling/Statistics for Measurement
                 Data/SforMD_Examples_3_1.ipynb
             - file: >-
-                predictive-modeling/Statistics for Measurement
+                predictive_modeling/Statistics for Measurement
                 Data/SforMD_Examples_3_2.ipynb
             - file: >-
-                predictive-modeling/Statistics for Measurement
+                predictive_modeling/Statistics for Measurement
                 Data/SforMD_Examples_3_3.ipynb
             - file: >-
-                predictive-modeling/Statistics for Measurement
+                predictive_modeling/Statistics for Measurement
                 Data/SforMD_Examples_3_4.ipynb
         - title: Support   Vector   Machines
           children:
@@ -154,10 +155,10 @@ project:
         - title: Time   Series   Forecasting
           children:
             - file: >-
-                predictive-modeling/Time Series
+                predictive_modeling/Time Series
                 Forecasting/TSF_Example_1_3_5_6.ipynb
             - file: >-
-                predictive-modeling/Time Series
+                predictive_modeling/Time Series
                 Forecasting/TSF_Example_1_7_8_11.ipynb
             - file: predictive_modeling/Time Series Forecasting/TSF_Example_1_10.ipynb
         - title: Time   Series   Introduction
@@ -169,24 +170,24 @@ project:
             - file: predictive_modeling/Time Series Introduction/TSI_Example_3_1_2.ipynb
             - file: predictive_modeling/Time Series Introduction/TSI_Example_3_3.ipynb
             - file: >-
-                predictive-modeling/Time Series
+                predictive_modeling/Time Series
                 Introduction/TSI_Example_3_4_5_6.ipynb
             - file: >-
-                predictive-modeling/Time Series
+                predictive_modeling/Time Series
                 Introduction/TSI_Example_3_7_8_9_10.ipynb
         - title: Time   Series   Mathematical   Models
           children:
             - file: >-
-                predictive-modeling/Time Series Mathematical
+                predictive_modeling/Time Series Mathematical
                 Models/TSMM_Example_1_1.ipynb
             - file: >-
-                predictive-modeling/Time Series Mathematical
+                predictive_modeling/Time Series Mathematical
                 Models/TSMM_Example_1_2_3_4.ipynb
             - file: >-
-                predictive-modeling/Time Series Mathematical
+                predictive_modeling/Time Series Mathematical
                 Models/TSMM_Example_3_2.ipynb
             - file: >-
-                predictive-modeling/Time Series Mathematical
+                predictive_modeling/Time Series Mathematical
                 Models/TSMM_Example_4_1.ipynb
     
 site:
