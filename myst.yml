@@ -18,16 +18,58 @@ project:
     - file: README.md
     - title: Bayesian Machine Learning
       children:
+        - title: Continous Problems
+          children:
+            - file: bayesian_machine_learning/continous_problems/Exercises.ipynb
+            - file: >-
+                bayesian_machine_learning/continous_problems/Gamma-Poisson-Family.ipynb
+            - file: bayesian_machine_learning/continous_problems/Solutions.ipynb
+            - file: >-
+                bayesian_machine_learning/continous_problems/The-Beta-Distribution.ipynb
+            - file: >-
+                bayesian_machine_learning/continous_problems/Tonue-Rolling-Examples.ipynb
+        - title: Estimation Prediction Hypothesis Test
+          children:
+            - file: >-
+                bayesian_machine_learning/estimation_prediction_hypothesis_test/Exercises.ipynb
+            - file: >-
+                bayesian_machine_learning/estimation_prediction_hypothesis_test/Railway-Counter-Example.ipynb
+            - file: >-
+                bayesian_machine_learning/estimation_prediction_hypothesis_test/Solutions.ipynb
+            - file: >-
+                bayesian_machine_learning/estimation_prediction_hypothesis_test/Tongue-Rolling-Example.ipynb
         - title: Linear Regression
           children:
-            - file: bayesian_machine_learning/linear_regression/exercises.ipynb
+            - file: bayesian_machine_learning/linear_regression/Exercises.ipynb
             - file: >-
-                bayesian-machine-learning/linear-regression/multiple-linear-regression.ipynb
+                bayesian_machine_learning/linear_regression/Multiple-Linear-Regression.ipynb
             - file: >-
-                bayesian-machine-learning/linear-regression/polynomial-regression-overfitting-regularisation.ipynb
+                bayesian_machine_learning/linear_regression/Polynomial-Regression-Overfitting-Regularisation.ipynb
             - file: >-
-                bayesian-machine-learning/linear-regression/simple-linear-regression.ipynb
-            - file: bayesian_machine_learning/linear_regression/solutions.ipynb
+                bayesian_machine_learning/linear_regression/Simple-Linear-Regression.ipynb
+            - file: bayesian_machine_learning/linear_regression/Solutions.ipynb
+        - title: Markov Chain Monte Carlo
+          children:
+            - file: bayesian_machine_learning/markov_chain_monte_carlo/Exercises.ipynb
+            - file: bayesian_machine_learning/markov_chain_monte_carlo/Solutions.ipynb
+        - title: Model Checks Model Selection Multivariate Distributions
+          children:
+            - file: >-
+                bayesian_machine_learning/model_checks_model_selection_multivariate_distributions/Exercises.ipynb
+            - file: >-
+                bayesian_machine_learning/model_checks_model_selection_multivariate_distributions/Model-Selection.ipynb
+            - file: >-
+                bayesian_machine_learning/model_checks_model_selection_multivariate_distributions/Multivariate-Distributions.ipynb
+            - file: >-
+                bayesian_machine_learning/model_checks_model_selection_multivariate_distributions/Posterior-Predictive-Check.ipynb
+            - file: >-
+                bayesian_machine_learning/model_checks_model_selection_multivariate_distributions/Solutions.ipynb
+        - title: Probability And Bayes Theorem
+          children:
+            - file: >-
+                bayesian_machine_learning/probability_and_bayes_theorem/Exercises.ipynb
+            - file: >-
+                bayesian_machine_learning/probability_and_bayes_theorem/Solutions.ipynb
     - title: Predictive Modeling
       children:
         - title: Decision   Trees
