@@ -112,14 +112,8 @@ project:
             - file: predictive_modeling/Joint Distributions/JDB_Example_5_1.ipynb
             - file: predictive_modeling/Joint Distributions/JDB_Example_5_2.ipynb
             - file: predictive_modeling/Joint Distributions/JDB_Exercise_USArrests.ipynb
-        - file: >-
-            predictive_modeling/linear_model_selection/Linear-Model-Selection.ipynb
-        - title: Logistic Regression
-          children:
-            - file: predictive_modeling/logistic_regression/Examples.ipynb
-            - file: predictive_modeling/logistic_regression/Exercises.ipynb
-            - file: >-
-                predictive_modeling/logistic_regression/Intro-Classification-Problems.ipynb
+        - file: predictive_modeling/linear_model_selection/Linear-Model-Selection.ipynb
+        - file: predictive_modeling/logistic_regression/Logistic-Regression.ipynb
         - title: Multiple Linear Regression
           children:
             - file: predictive_modeling/multiple_linear_regression/Examples.ipynb
@@ -149,10 +143,7 @@ project:
           children:
             - file: predictive_modeling/regularization_techniques/Examples.ipynb
             - file: predictive_modeling/regularization_techniques/Exercises.ipynb
-        - title: Simple Linear Regression
-          children:
-            - file: predictive_modeling/simple_linear_regression/Examples.ipynb
-            - file: predictive_modeling/simple_linear_regression/Exercises.ipynb
+        - file: predictive_modeling/simple_linear_regression/Simple-Linear-Regression.ipynb
         - title: Statistics  For  Measurement   Data
           children:
             - file: >-
