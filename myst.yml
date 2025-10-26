@@ -51,24 +51,14 @@ project:
             - file: predictive-modeling/Joint Distributions/JDB_Example_5_1.ipynb
             - file: predictive-modeling/Joint Distributions/JDB_Example_5_2.ipynb
             - file: predictive-modeling/Joint Distributions/JDB_Exercise_USArrests.ipynb
-        - title: Linear   Model   Selection
+        - title: Linear Model Selection
           children:
-            - file: predictive-modeling/Linear Model Selection/LMS_Example_2_1.ipynb
-            - file: predictive-modeling/Linear Model Selection/LMS_Example_2_2.ipynb
+            - file: predictive-modeling/linear-model-selection/Examples.ipynb
+        - title: Logistic Regression
+          children:
+            - file: predictive-modeling/logistic-regression/Examples.ipynb
             - file: >-
-                predictive-modeling/Linear Model
-                Selection/LMS_Example_2_3_and_2_4.ipynb
-            - file: predictive-modeling/Linear Model Selection/LMS_Example_2_5.ipynb
-            - file: predictive-modeling/Linear Model Selection/LMS_Example_2_6.ipynb
-        - title: Logistic   Regression
-          children:
-            - file: predictive-modeling/Logistic Regression/ICP_Example_0_1.ipynb
-            - file: predictive-modeling/Logistic Regression/LR_Example_1_1.ipynb
-            - file: predictive-modeling/Logistic Regression/LR_Example_1_2.ipynb
-            - file: predictive-modeling/Logistic Regression/LR_Example_2_2.ipynb
-            - file: predictive-modeling/Logistic Regression/LR_Example_3_1to10.ipynb
-            - file: predictive-modeling/Logistic Regression/LR_Example_4_1.ipynb
-            - file: predictive-modeling/Logistic Regression/LR_Example_5_1.ipynb
+                predictive-modeling/logistic-regression/Intro-Classification-Problems.ipynb
         - title: Multiple   Linear   Regression
           children:
             - file: predictive-modeling/Multiple Linear Regression/MLR_Example_1_3.ipynb
@@ -118,16 +108,9 @@ project:
             - file: predictive-modeling/Random Forests/RF_Example_2_1_2.ipynb
             - file: predictive-modeling/Random Forests/RF_Example_3_1_2.ipynb
             - file: predictive-modeling/Random Forests/RF_Example_3_3.ipynb
-        - title: Regularization   Techniques
+        - title: Regularization Techniques
           children:
-            - file: predictive-modeling/Regularization Techniques/RT_Example_1_1.ipynb
-            - file: predictive-modeling/Regularization Techniques/RT_Example_1_2.ipynb
-            - file: predictive-modeling/Regularization Techniques/RT_Example_2_3.ipynb
-            - file: predictive-modeling/Regularization Techniques/RT_Example_2_4_5.ipynb
-            - file: predictive-modeling/Regularization Techniques/RT_Example_2_7.ipynb
-            - file: predictive-modeling/Regularization Techniques/RT_Example_4_1.ipynb
-            - file: predictive-modeling/Regularization Techniques/RT_Example_5_1.ipynb
-            - file: predictive-modeling/Regularization Techniques/RT_Example_5_2.ipynb
+            - file: predictive-modeling/regularization-techniques/Examples.ipynb
         - title: Simple Linear Regression
           children:
             - file: predictive-modeling/simple-linear-regression/SLR_Example_2_4.ipynb
