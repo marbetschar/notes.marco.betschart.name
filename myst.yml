@@ -20,14 +20,14 @@ project:
       children:
         - title: Linear Regression
           children:
-            - file: bayesian-machine-learning/linear-regression/exercises.ipynb
+            - file: bayesian-machine-learning/linear_regression/exercises.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/multiple-linear-regression.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/polynomial-regression-overfitting-regularisation.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/simple-linear-regression.ipynb
-            - file: bayesian-machine-learning/linear-regression/solutions.ipynb
+            - file: bayesian-machine-learning/linear_regression/solutions.ipynb
     - title: Predictive Modeling
       children:
         - title: Decision   Trees
@@ -55,10 +55,10 @@ project:
             - file: predictive_modeling/linear_model_selection/Examples.ipynb
         - title: Linear Regression
           children:
-            - file: predictive_modeling/linear-regression/Examples.ipynb
+            - file: predictive_modeling/linear_regression/Examples.ipynb
         - title: Logistic Regression
           children:
-            - file: predictive_modeling/logistic-regression/Examples.ipynb
+            - file: predictive_modeling/logistic_regression/Examples.ipynb
             - file: >-
                 predictive-modeling/logistic-regression/Intro-Classification-Problems.ipynb
         - title: Multiple   Linear   Regression
@@ -112,8 +112,8 @@ project:
             - file: predictive_modeling/Random Forests/RF_Example_3_3.ipynb
         - title: Regularization Techniques
           children:
-            - file: predictive_modeling/regularization-techniques/Examples.ipynb
-            - file: predictive_modeling/regularization-techniques/Exercises.ipynb
+            - file: predictive_modeling/regularization_techniques/Examples.ipynb
+            - file: predictive_modeling/regularization_techniques/Exercises.ipynb
         - title: Statistics  For  Measurement   Data
           children:
             - file: >-
