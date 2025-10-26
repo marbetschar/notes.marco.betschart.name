@@ -20,14 +20,14 @@ project:
       children:
         - title: Linear Regression
           children:
-            - file: bayesian-machine-learning/linear-regression/exercises.ipynb
+            - file: bayesian_machine_learning/linear_regression/exercises.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/multiple-linear-regression.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/polynomial-regression-overfitting-regularisation.ipynb
             - file: >-
                 bayesian-machine-learning/linear-regression/simple-linear-regression.ipynb
-            - file: bayesian-machine-learning/linear-regression/solutions.ipynb
+            - file: bayesian_machine_learning/linear_regression/solutions.ipynb
     - title: Predictive Modeling
       children:
         - title: Decision   Trees
