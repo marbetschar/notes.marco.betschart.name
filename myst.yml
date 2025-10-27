@@ -42,16 +42,7 @@ project:
         - file: bayesian_machine_learning/continous_problems/Continous-Problems.ipynb
         - file: bayesian_machine_learning/estimation_prediction_hypothesis_test/Estimation-Prediction-Hypothesis-Tests.ipynb
         - file: bayesian_machine_learning/model_checks/Model-Checks.ipynb
-        - title: Linear Regression
-          children:
-            - file: bayesian_machine_learning/linear_regression/Exercises.ipynb
-            - file: >-
-                bayesian_machine_learning/linear_regression/Multiple-Linear-Regression.ipynb
-            - file: >-
-                bayesian_machine_learning/linear_regression/Polynomial-Regression-Overfitting-Regularisation.ipynb
-            - file: >-
-                bayesian_machine_learning/linear_regression/Simple-Linear-Regression.ipynb
-            - file: bayesian_machine_learning/linear_regression/Solutions.ipynb
+        - file: bayesian_machine_learning/linear_regression/Linear-Regression.ipynb
         - file: bayesian_machine_learning/markov_chain_monte_carlo/Markov-Chain-Monte-Carlo.ipynb
     - title: Predictive Modeling
       children:
