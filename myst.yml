@@ -60,10 +60,7 @@ project:
             - file: >-
                 bayesian_machine_learning/linear_regression/Simple-Linear-Regression.ipynb
             - file: bayesian_machine_learning/linear_regression/Solutions.ipynb
-        - title: Markov Chain Monte Carlo
-          children:
-            - file: bayesian_machine_learning/markov_chain_monte_carlo/Exercises.ipynb
-            - file: bayesian_machine_learning/markov_chain_monte_carlo/Solutions.ipynb
+        - file: bayesian_machine_learning/markov_chain_monte_carlo/Markov-Chain-Monte-Carlo.ipynb
         - title: Model Checks Model Selection Multivariate Distributions
           children:
             - file: >-
