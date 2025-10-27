@@ -39,16 +39,7 @@ project:
     - title: Bayesian Machine Learning
       children:
         - file: bayesian_machine_learning/introduction/Introduction.ipynb
-        - title: Continous Problems
-          children:
-            - file: bayesian_machine_learning/continous_problems/Exercises.ipynb
-            - file: >-
-                bayesian_machine_learning/continous_problems/Gamma-Poisson-Family.ipynb
-            - file: bayesian_machine_learning/continous_problems/Solutions.ipynb
-            - file: >-
-                bayesian_machine_learning/continous_problems/The-Beta-Distribution.ipynb
-            - file: >-
-                bayesian_machine_learning/continous_problems/Tonue-Rolling-Examples.ipynb
+        - file: bayesian_machine_learning/continous_problems/Continous-Problems.ipynb
         - title: Estimation Prediction Hypothesis Test
           children:
             - file: >-
