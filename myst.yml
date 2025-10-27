@@ -44,6 +44,7 @@ project:
         - file: bayesian_machine_learning/model_checks/Model-Checks.ipynb
         - file: bayesian_machine_learning/linear_regression/Linear-Regression.ipynb
         - file: bayesian_machine_learning/markov_chain_monte_carlo/Markov-Chain-Monte-Carlo.ipynb
+        - file: bayesian_machine_learning/Hierarchical-Models.ipynb
     - title: Predictive Modeling
       children:
         - title: Decision   Trees
