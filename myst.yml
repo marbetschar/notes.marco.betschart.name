@@ -22,6 +22,12 @@ project:
           children:
             - file: Predictive-Modeling/Simple-Linear-Regression.ipynb
             - file: Predictive-Modeling/Testing-Model-Assumptions.ipynb
+            - file: Predictive-Modeling/Multiple-Linear-Regression.ipynb
+            - file: Predictive-Modeling/Linear-Model-Selection.ipynb
+        - title: Classification
+          children:
+            - file: Predictive-Modeling/Logistic-Regression.ipynb
+            - file: Predictive-Modeling/Regularization-Techniques.ipynb
     
 site:
   robots: disallow
