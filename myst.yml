@@ -36,6 +36,7 @@ project:
         - title: Regression Analysis
           children:
             - file: Predictive-Modeling/Simple-Linear-Regression.ipynb
+            - file: Predictive-Modeling/Testing-Model-Assumptions.ipynb
     
 site:
   robots: disallow
