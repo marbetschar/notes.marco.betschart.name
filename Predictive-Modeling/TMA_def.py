@@ -9,6 +9,72 @@ import random
 import pandas as pd
 import numpy as np
 
+def model_plot(x_true, y_true, model, x_label = None, y_label = None):
+    plt.title('Model')
+    plt.plot(x_true, model.fittedvalues, color='red')
+    plt.scatter(x_true, y_true)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+
+def tma_plots(model, n_samp=1000):
+    # Find the predicted values for the original design.
+    y_hat = model.fittedvalues
+    # Find the Residuals
+    res = model.resid
+    # Influence of the Residuals
+    res_inf = model.get_influence()
+    # Studentized residuals using variance from OLS
+    res_standard = res_inf.resid_studentized_internal
+    # Absolute square root Residuals:
+    res_stand_sqrt = np.sqrt(np.abs(res_standard))
+    # Cook's Distance and leverage:
+    res_inf_cooks = res_inf.cooks_distance
+    res_inf_leverage = res_inf.hat_matrix_diag
+
+    """ Plots """
+    # Create Figure and subplots
+    fig = plt.figure(figsize = (14, 18))
+
+    # First subplot Residuals vs Fitted values
+    ax1 = fig.add_subplot(2, 2, 1)
+    plot_residuals(ax1, y_hat, res, n_samp=n_samp, title='Tukey-Anscombe plot - Residuals vs Fitted')
+
+    # Second subplot Q-Q Plot
+    ax2 = fig.add_subplot(2, 2, 2)
+    plot_QQ(ax2, res_standard, n_samp=n_samp, title='Normal plot or Q-Q plot')
+
+    # Third subplot: Scale location
+    ax3 = fig.add_subplot(2, 2, 3)
+    plot_scale_loc(ax3, y_hat, res_stand_sqrt, n_samp=n_samp, x_lab='Fitted values')
+
+    # Fourth subplot: Cook's distance
+    ax4 = fig.add_subplot(2, 2, 4)
+    x_min, x_max = min(res_inf_leverage) - 0.005, max(res_inf_leverage) + 0.01
+    y_min, y_max = min(res_standard) - 1, max(res_standard) + 1
+    plot_cooks(ax4, res_inf_leverage, res_standard, n_pred=1,
+              x_lim=[x_min, x_max], y_lim=[y_min, y_max])
+
+    # Lag-1-Plot
+    # ax8 = fig.add_subplot(3, 3, 8)
+    # res_t0 = res[:-1]
+    # res_t1 = res[1:]
+    # ax8.scatter(res_t0, res_t1)
+    # ax8.set_xlabel('Residual r(t)')
+    # ax8.set_ylabel('Residual r(t+1)')
+    # ax8.set_title('Lag-1-Plot')
+
+    # Residual vs Observation Plot
+    # ax9 = fig.add_subplot(3, 3, 9)
+    # res_len = len(res)
+    # ax9.plot(range(res_len), res)
+    # ax9.set_xlabel('Observation')
+    # ax9.set_ylabel('Residual')
+    # ax9.set_title('Residual Observations')
+
+    # Show plot
+    # plt.tight_layout()
+    plt.show()
+
 """ Standard scatter plot and regression line """
 def plot_reg(axes, x, y, model, x_lab="x", y_lab="y", title="Linear Regression"):
     """ Inputs:
