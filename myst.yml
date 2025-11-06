@@ -31,7 +31,9 @@ project:
           children:
             - file: Predictive-Modeling/Logistic-Regression.ipynb
             - file: Predictive-Modeling/Regularization-Techniques.ipynb
-    
+        - title: Time Series Analysis
+          children:
+            - file: Predictive-Modeling/Time-Series-Mathematical-Models.ipynb
 site:
   robots: disallow
   template: book-theme
