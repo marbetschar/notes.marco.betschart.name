@@ -17,8 +17,14 @@ project:
     - file: index.md
     - title: Bayesian Machine Learning
       children:
-        - file: Bayesian-Machine-Learning/Bayes-Theorem.ipynb
-
+        - file: Bayesian-Machine-Learning/Probability-Theory-Bayes-Theorem.ipynb
+        - file: Bayesian-Machine-Learning/Continuous-Problems-Conjugate-Families.ipynb
+        - file: Bayesian-Machine-Learning/Markov-Chain-Monte-Carlo.ipynb
+        - file: Bayesian-Machine-Learning/Estimation-Prediction-Hypothesis-Test.ipynb
+        - file: Bayesian-Machine-Learning/Model-Checks-Model-Selection-Multivariate-Distributions.ipynb
+        - file: Bayesian-Machine-Learning/Bayesian-Linear-Regression.ipynb
+        - file: Bayesian-Machine-Learning/Hierarchical-Models.ipynb
+        - file: Bayesian-Machine-Learning/Hierarchical-Models.ipynb
     - title: Predictive Modeling
       children:
         - title: Regression Analysis
