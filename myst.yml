@@ -25,6 +25,7 @@ project:
         - file: Bayesian-Machine-Learning/Bayesian-Linear-Regression.ipynb
         - file: Bayesian-Machine-Learning/Hierarchical-Models.ipynb
         - file: Bayesian-Machine-Learning/Bayesian-Network-Causal-Graphs.ipynb
+        - file: Bayesian-Machine-Learning/Bayesian-Network-Learning-From-Data.ipynb
     - title: Predictive Modeling
       children:
         - title: Regression Analysis
