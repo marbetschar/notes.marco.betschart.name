@@ -86,6 +86,7 @@ nodeenv==1.9.1
 notebook_shim==0.2.4
 numba==0.60.0
 numpy==1.26.4
+opt_einsum==3.4.0
 overrides==7.7.0
 packaging==25.0
 pandas==2.3.3
@@ -93,6 +94,7 @@ pandocfilters==1.5.1
 parso==0.8.5
 patsy==1.0.2
 pexpect==4.9.0
+pgmpy==1.0.0
 pillow==11.3.0
 platformdirs==4.2.2
 preliz==0.6.1
@@ -105,6 +107,8 @@ pycparser==2.23
 Pygments==2.19.2
 pymc==5.12.0
 pyparsing==3.2.5
+pyro-api==0.1.2
+pyro-ppl==1.9.1
 pytensor==2.19.0
 python-dateutil==2.9.0.post0
 python-json-logger==4.0.0
