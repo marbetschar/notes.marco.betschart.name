@@ -46,6 +46,7 @@ project:
         - title: Time Series Analysis
           children:
             - file: Predictive-Modeling/Time-Series-Mathematical-Models.ipynb
+            - file: Predictive-Modeling/Time-Series-Forecasting.ipynb
 site:
   robots: disallow
   template: book-theme
