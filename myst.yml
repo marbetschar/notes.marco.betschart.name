@@ -21,6 +21,7 @@ project:
         - file: Advanced-Deep-Learning/Attention-And-Transformers.ipynb
         - file: Advanced-Deep-Learning/Vision-Transformers.ipynb
         - file: Advanced-Deep-Learning/Explainable-AI.ipynb
+        - file: Advanced-Deep-Learning/Generative-Modelling.ipynb
     - title: Bayesian Machine Learning
       children:
         - file: Bayesian-Machine-Learning/Probability-Theory-Bayes-Theorem.ipynb
