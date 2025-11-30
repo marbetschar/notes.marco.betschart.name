@@ -201,3 +201,49 @@ def log_to_density(Z):
     Z = Z - np.max(Z)
     Z = np.exp(Z)
     return Z/np.sum(Z)
+
+def plot_posterior_credibility_region(x, y, m, S, sigma2, xp):
+    mu, Sigma = compute_posterior(x, y, m, S, sigma2)
+    mu_f, var_f = compute_f_posterior(xp, mu, Sigma)
+
+    std_f = np.sqrt(var_f)
+    mu_f = mu_f.reshape(-1)
+    std_f = std_f.reshape(-1)
+
+    plt.figure(figsize=(12, 4))
+    plt.plot(x, y, 'k.', markersize=12, label='observations')
+    plt.plot(xp, mu_f, 'b', label='mean prediction')
+    plt.fill_between(xp, mu_f - 2 * std_f, mu_f + 2 * std_f, alpha=0.2, color='r', label='Posterior credibility region')
+    plt.legend()
+    plt.grid()
+
+def plot_predictive_region(x, y, m, S, sigma2, xp):
+    mu, Sigma = compute_posterior(x, y, m, S, sigma2)
+    mu_f, var_f = compute_f_posterior(xp, mu, Sigma)
+    mu_f = mu_f.reshape(-1)
+
+    var_y = var_f + sigma2
+    std_y = np.sqrt(var_y)
+    std_y = std_y.reshape(-1)
+
+    plt.plot(x, y, 'k.', markersize=12, label='observations')
+    plt.plot(xp, mu_f, 'b', label='mean prediction')
+    plt.fill_between(
+        xp,
+        mu_f - 2 * std_y,
+        mu_f + 2 * std_y,
+        alpha=0.2,
+        color='r',
+        label='Predictive 95% region'
+    )
+    plt.legend()
+    plt.grid()
+
+def rmse(mu_f, y):
+    return np.sqrt(np.mean((y - mu_f)**2))
+
+def mae(mu_f, y):
+    return np.mean(np.abs(y - mu_f))
+
+def r2(mu_f, y):
+    return 1 - np.mean((y - mu_f)**2) / np.var(y)
