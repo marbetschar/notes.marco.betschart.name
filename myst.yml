@@ -27,7 +27,7 @@ project:
         - file: Bayesian-Machine-Learning/Probability-Theory-and-Bayes-Theorem.ipynb
         - file: Bayesian-Machine-Learning/Continuous-Problems-and-Conjugate-Families.ipynb
         - file: Bayesian-Machine-Learning/Markov-Chain-Monte-Carlo.ipynb
-        - file: Bayesian-Machine-Learning/Estimation-Prediction-Hypothesis-Test.ipynb
+        - file: Bayesian-Machine-Learning/Estimation-Prediction-Hypothesis-Tests.ipynb
         - file: Bayesian-Machine-Learning/Model-Checks-Model-Selection-Multivariate-Distributions.ipynb
         - file: Bayesian-Machine-Learning/Bayesian-Linear-Regression.ipynb
         - file: Bayesian-Machine-Learning/Hierarchical-Models.ipynb
@@ -38,6 +38,8 @@ project:
           children:
             - file: Bayesian-Machine-Learning/Exercises-Probability-Theory-and-Bayes-Theorem.ipynb
             - file: Bayesian-Machine-Learning/Exercises-Continuous-Problems-and-Conjugate-Families.ipynb
+            - file: Bayesian-Machine-Learning/Exercises-Markov-Chain-Monte-Carlo.ipynb
+            - file: Bayesian-Machine-Learning/Exercises-Estimation-Prediction-Hypothesis-Tests.ipynb
     - title: Predictive Modeling
       children:
         - title: Regression Analysis
