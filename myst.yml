@@ -40,6 +40,7 @@ project:
             - file: Bayesian-Machine-Learning/Exercises-Continuous-Problems-and-Conjugate-Families.ipynb
             - file: Bayesian-Machine-Learning/Exercises-Markov-Chain-Monte-Carlo.ipynb
             - file: Bayesian-Machine-Learning/Exercises-Estimation-Prediction-Hypothesis-Tests.ipynb
+            - file: Bayesian-Machine-Learning/Exercises-Model-Checks-Model-Selection-Multivariate-Distributions.ipynb
     - title: Predictive Modeling
       children:
         - title: Regression Analysis
