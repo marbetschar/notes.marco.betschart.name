@@ -42,6 +42,11 @@ project:
             - file: Bayesian-Machine-Learning/Exercises-Estimation-Prediction-Hypothesis-Tests.ipynb
             - file: Bayesian-Machine-Learning/Exercises-Model-Checks-Model-Selection-Multivariate-Distributions.ipynb
             - file: Bayesian-Machine-Learning/Exercises-Bayesian-Linear-Regression.ipynb
+            - file: Bayesian-Machine-Learning/Exercises-Bayesian-Networks-I.ipynb
+            - file: Bayesian-Machine-Learning/Exercises-Bayesian-Networks-II.ipynb
+            - file: Bayesian-Machine-Learning/Exercises-Bayesian-Networks-III.ipynb
+            - file: Bayesian-Machine-Learning/Exercises-Gaussian-Processes-II.ipynb
+            - file: Bayesian-Machine-Learning/Exercises-Gaussian-Processes-III.ipynb
     - title: Predictive Modeling
       children:
         - title: Regression Analysis
