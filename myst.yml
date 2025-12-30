@@ -24,16 +24,19 @@ project:
         - file: Advanced-Deep-Learning/Generative-Modelling.ipynb
     - title: Bayesian Machine Learning
       children:
-        - file: Bayesian-Machine-Learning/Probability-Theory-and-Bayes-Theorem.ipynb
-        - file: Bayesian-Machine-Learning/Continuous-Problems-and-Conjugate-Families.ipynb
-        - file: Bayesian-Machine-Learning/Markov-Chain-Monte-Carlo.ipynb
-        - file: Bayesian-Machine-Learning/Estimation-Prediction-Hypothesis-Tests.ipynb
-        - file: Bayesian-Machine-Learning/Model-Checks-Model-Selection-Multivariate-Distributions.ipynb
-        - file: Bayesian-Machine-Learning/Bayesian-Linear-Regression.ipynb
-        - file: Bayesian-Machine-Learning/Hierarchical-Models.ipynb
-        - file: Bayesian-Machine-Learning/Bayesian-Network-Causal-Graphs.ipynb
-        - file: Bayesian-Machine-Learning/Bayesian-Network-Learning-From-Data.ipynb
-        - file: Bayesian-Machine-Learning/Gaussian-Processes.ipynb
+        - file: Bayesian-Machine-Learning/Bayesian-Machine-Learning-Summary.ipynb
+        - title: Lectures
+          children:
+          - file: Bayesian-Machine-Learning/Probability-Theory-and-Bayes-Theorem.ipynb
+          - file: Bayesian-Machine-Learning/Continuous-Problems-and-Conjugate-Families.ipynb
+          - file: Bayesian-Machine-Learning/Markov-Chain-Monte-Carlo.ipynb
+          - file: Bayesian-Machine-Learning/Estimation-Prediction-Hypothesis-Tests.ipynb
+          - file: Bayesian-Machine-Learning/Model-Checks-Model-Selection-Multivariate-Distributions.ipynb
+          - file: Bayesian-Machine-Learning/Bayesian-Linear-Regression.ipynb
+          - file: Bayesian-Machine-Learning/Hierarchical-Models.ipynb
+          - file: Bayesian-Machine-Learning/Bayesian-Network-Causal-Graphs.ipynb
+          - file: Bayesian-Machine-Learning/Bayesian-Network-Learning-From-Data.ipynb
+          - file: Bayesian-Machine-Learning/Gaussian-Processes.ipynb
         - title: Exercises
           children:
             - file: Bayesian-Machine-Learning/Exercises-Probability-Theory-and-Bayes-Theorem.ipynb
@@ -49,6 +52,7 @@ project:
             - file: Bayesian-Machine-Learning/Exercises-Gaussian-Processes-III.ipynb
     - title: Predictive Modeling
       children:
+        - file: Predictive-Modeling/Predictive-Modeling-Summary.ipynb
         - title: Regression Analysis
           children:
             - file: Predictive-Modeling/Simple-Linear-Regression.ipynb
