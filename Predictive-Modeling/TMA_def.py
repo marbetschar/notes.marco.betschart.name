@@ -10,8 +10,17 @@ import pandas as pd
 import numpy as np
 
 def model_plot(x_true, y_true, model, x_label = None, y_label = None):
+    x_true = np.asarray(x_true)
+    y_true = np.asarray(y_true)
+    y_pred = np.asarray(model.fittedvalues)
+
+    order = np.argsort(x_true)
+    x_true = x_true[order]
+    y_true = y_true[order]
+    y_pred = y_pred[order]
+
     plt.title('Model')
-    plt.plot(x_true, model.fittedvalues, color='red')
+    plt.plot(x_true, y_pred, color='red')
     plt.scatter(x_true, y_true)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
