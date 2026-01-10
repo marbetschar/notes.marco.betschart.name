@@ -17,11 +17,14 @@ project:
     - file: index.md
     - title: Advanced Deep Learning
       children:
-        - file: Advanced-Deep-Learning/Basic-Concepts.ipynb
-        - file: Advanced-Deep-Learning/Attention-And-Transformers.ipynb
-        - file: Advanced-Deep-Learning/Vision-Transformers.ipynb
-        - file: Advanced-Deep-Learning/Explainable-AI.ipynb
-        - file: Advanced-Deep-Learning/Generative-Modelling.ipynb
+        - file: Advanced-Deep-Learning/Advanced-Deep-Learning-Summary.ipynb
+        - title: Lectures
+          children:
+          - file: Advanced-Deep-Learning/Basic-Concepts.ipynb
+          - file: Advanced-Deep-Learning/Attention-And-Transformers.ipynb
+          - file: Advanced-Deep-Learning/Vision-Transformers.ipynb
+          - file: Advanced-Deep-Learning/Explainable-AI.ipynb
+          - file: Advanced-Deep-Learning/Generative-Modelling.ipynb
     - title: Bayesian Machine Learning
       children:
         - file: Bayesian-Machine-Learning/Bayesian-Machine-Learning-Summary.ipynb
