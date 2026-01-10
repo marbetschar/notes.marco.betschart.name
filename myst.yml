@@ -71,6 +71,7 @@ project:
             - file: Predictive-Modeling/Time-Series-Mathematical-Models.ipynb
             - file: Predictive-Modeling/Time-Series-Forecasting.ipynb
             - file: Predictive-Modeling/Time-Series-ARIMA-Models.ipynb
+    - file: Complex-Processes.ipynb
 site:
   robots: disallow
   template: book-theme
