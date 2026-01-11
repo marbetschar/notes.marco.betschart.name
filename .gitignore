@@ -224,5 +224,10 @@ __marimo__/
 # IntelliJ
 .idea/
 
+# Ignore training related stuff:
+wandb/
+Advanced-Deep-Learning/data/
+Advanced-Deep-Learning/Exercises/data/
+
 # Ignore export formats:
 *.pdf
