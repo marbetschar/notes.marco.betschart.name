@@ -1,0 +1,12 @@
+cas_env_main/
+*.pyc
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+instructions/
+lectures/
+notebooks/*solutions*.ipynb
+renku_context.txt
+adult.zip
+data/mine/
+Colab_Setup.ipynb
